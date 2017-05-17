@@ -49,6 +49,6 @@ def main():
     #Prints the total BTC receieved.
     print("\033[95m\033[1mTotal BTC received\033[0m: \033[94m" + str(totalBTC) + " BTC\033[0m")
     #Prints the total USD receieved.
-    print("\033[95m\033[1mTotal USD received\033[0m: \033[92m" + format(int(totalBTC * USD), ',f').split(".")[0] + " USD")
+    print("\033[95m\033[1mTotal USD received\033[0m: \033[92m" + format(int(totalBTC * USD), ',f').split(".")[0] + " USD\033[0m")
  
 main()
